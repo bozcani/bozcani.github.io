@@ -6,9 +6,27 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Oct 2017 10:59:31 +0300</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2017 10:59:31 +0300</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2017 11:40:35 +0300</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2017 11:40:35 +0300</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>throwback: My Senior Design Project: Non Contact Baby Monitoring System</title>
+        <description>&lt;p&gt;We designed a senior design project as a group of four in 2015-2016. In this project, vitals signs of a baby such as heart rate, respiration rate and body temperature were monitored by using thermal camera only and parents were notified about them via mobile application. We used Raspberry Pi Model B as intermediate device. Thermal camera camera captured thermal frames and Raspberry processed them realtime. MongoDB is used as storage the data coming from Raspberry. An android mobile application is used as end-user product.&lt;/p&gt;
+
+&lt;p&gt;You can see detailed information &lt;a href=&quot;https://senior.ceng.metu.edu.tr/2016/teamrocket/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 18 Oct 2017 14:28:26 +0300</pubDate>
+        <link>http://localhost:4000/jekyll/update/2017/10/18/throw-back-My-Senior-Design-Project-Non-Contact-Baby-Monitoring-System.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/10/18/throw-back-My-Senior-Design-Project-Non-Contact-Baby-Monitoring-System.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>throwback: My Summer Internship Project: Object Manipulation with NAO Humanoid Robot</title>
