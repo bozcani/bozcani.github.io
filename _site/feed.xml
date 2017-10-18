@@ -6,30 +6,24 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Oct 2017 12:26:18 +0300</pubDate>
-    <lastBuildDate>Tue, 17 Oct 2017 12:26:18 +0300</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2017 10:59:31 +0300</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2017 10:59:31 +0300</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>throwback: My Summer Internship Project: Object Manipulation with NAO Humanoid Robot</title>
+        <description>&lt;p&gt;In 2014, I did my summer internship in &lt;a href=&quot;http://www.kovan.ceng.metu.edu.tr/index.php/Main_Page&quot;&gt;KOVAN Research Lab&lt;/a&gt; that is the best robotic lab in Turkey and well-known in Europe. At the end of my summer internship, I have decided to work in academia since KOVAN Research Lab gave me initial spark for science -especially AI-.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;I have worked with NAO Humanoid Robot for three months. In my project, NAO moved objects out of the area that borders were marked with a tape. Movable objects were carried by NAO itself. However, for objects that NAO could not move, it looked for a human for assistance. NAO’s aim was clearing the area by moving objects outside of borders.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;You can see the project report &lt;a href=&quot;../../../../../../Summer_Practice_Report.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bozcani/Object-Manipulation-with-NAO-Humanoid-Robot&quot;&gt;Code&lt;/a&gt; is available.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 03 Oct 2017 14:28:26 +0300</pubDate>
-        <link>http://localhost:4000/jekyll/update/2017/10/03/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/10/03/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update/2017/10/03/throw-back-My-Summer-Internship-Project-Object-Manipulation-with-NAO_Humanoid_Robot.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2017/10/03/throw-back-My-Summer-Internship-Project-Object-Manipulation-with-NAO_Humanoid_Robot.html</guid>
         
         
         <category>jekyll</category>
