@@ -1,10 +1,256 @@
 <!DOCTYPE html>
-<html>
+<!-- saved from url=(0120)http://www.kovan.ceng.metu.edu.tr/~ilker/publications/A_Hybrid_Deep_Boltzmann_Machine_for_Contextual_Scene_Modeling.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>COSMO: Contextualized Scene Modeling with Boltzmann Machines</title>
+	<link rel="stylesheet" type="text/css" href="./COSMO_files/pvg.css">
+<style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style></head>
 <body>
+<div><a href="http://www.kovan.ceng.metu.edu.tr/" target="_self"><img src="./COSMO_files/kovan_logo_yan.png" style="margin-top: 5px;" height="80px" width="289px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div class="icon"><a href="http://www.kovan.ceng.metu.edu.tr/"><img src="./COSMO_files/home.svg">Home</a></div><div class="icon"><a href="http://www.kovan.ceng.metu.edu.tr/index.php/Research"><img src="./COSMO_files/research.svg">Research</a></div><div class="icon"><a href="http://www.kovan.ceng.metu.edu.tr/index.php/Publications"><img src="./COSMO_files/publications.svg">Publications</a></div><div class="icon"><a href="http://www.kovan.ceng.metu.edu.tr/index.php/Members"><img src="./COSMO_files/people.svg">People</a></div></div>
 
+
+<table width="85%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top: 30px;">
+  <tbody><tr> 
+    <td> 
+
+
+
+<h1 align="center" style="font-size: 18pt;"><b>COSMO: Contextualized Scene Modeling with Boltzmann Machines </b></h1><br>
+
+<center><img src="./COSMO_files/overview.png" style="width: 100%;"> <figcaption>(a) An overview of the proposed model COSMO, where the tri-way edges are shown in red, and (b) some examples for what it can provide to a robot</figcaption> </center>
+
+<h2>Abstract</h2>
+<p>
+Scene modeling is very crucial for robots that need to perceive, reason about
+and manipulate the objects in their environments. In this paper, we adapt
+and extend Boltzmann Machines (BMs) for contextualized scene modeling. Al-
+though there are many models on the subject, ours is the first to bring together
+objects, relations, and affordances in a highly-capable generative model. For
+this end, we introduce a hybrid version of BMs where relations and affordances
+are introduced with shared, tri-way connections into the model. Moreover, we
+contribute a dataset for relation estimation and modeling studies. We evaluate
+our method in comparison with several baselines on object estimation, out-of-
+context object detection, relation estimation, and affordance estimation tasks.
+Moreover, to illustrate the generative capability of the model, we show several
+example scenes that the model is able to generate.
+
+</p>
+
+<h2>Paper</h2>
+
+<ul>
+İlker Bozcan, Sinan Kalkan <br>
+<b>COSMO: Contextualized Scene Modeling with Boltzmann Machines</b> (<b> submitted to the Robotics and Autonomous Systems (RAS) special issue on Semantic Policy and Action Representations for Autonomous Robots (SPAR) </b>) <br>
+<a href="http://www.kovan.ceng.metu.edu.tr/~ilker/publications/BozcanKalkan2018_COSMO.pdf"> [paper] </a> 
+<a href="https://github.com/bozcani/COSMO"> [code] </a> 
+<!--<a href=""> [bibtex] </a>  
+<a href=""> [poster] </a> <a href=""> [talk] </a> <a href=""> [slides] </a> -->
+</ul>
+
+<!-- <h2>Bibtex</h2>
+<ul>
+
+</ul> -->
+
+<!--
+<h2>Method &amp; Results</h2>
+<p>
+We propose a triway deep BM for scene modeling. Visible nodes are separated into two groups:
+relations(r) and objects(v). Relation nodes(visible) are shared between two object nodes. Visible
+nodes(both of relation and visible nodes) are connected to units at the first hidden layer. Hidden
+layers are stacked to make model deep.
+</p>
+
+<p>
+Gibbs sampling is used for inference instead of variational inference since our dataset is relatively
+small (total 3485 samples) and input vectors are too sparse (i.e. slight number of relation nodes are
+active). It is a type of Monte Carlo Markov Chain Method that can guarantee precise inferences.
+Precise inference is important for our problem since only slight number of relation nodes are active
+for each sample.
+</p>
+
+<p>
+We conduct several experiments that includes scenarios that can be performed by robots in real
+world problems. We compared our model’s results(Triway BM) with Restricted Boltzmann
+Machine(RBM) and General Boltzmann Machine(GBM) that is structured as bidirectional links
+exists within input layer and hidden layers are stacked.
+</p>
+
+<p>
+The first experiment is estimation of relations between objects that are on the scene for current
+context. In this experiment, firstly, model determines context by using objects on the scene only,
+then using by context and activation of objects, it estimates relations among objects on the scene.
+For this task, we define accuracy as the percentage of relations correctly estimated with respect
+to the labeled relations in the test dataset. We see that our model provides highest accuracy(Table 1).
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-g145{font-family:"Times New Roman", Times, serif !important;;text-align:center;vertical-align:top}
+.tg .tg-s2f6{font-family:"Times New Roman", Times, serif !important;;text-align:center}
+</style>
+</p><center>
+<subcaption>Table 1: Performance (accuracy) of the methods on estimating relations between a given set of
+objects. Higher is better.</subcaption><table class="tg">
+  <tbody><tr>
+    <th class="tg-g145">RBM</th>
+    <th class="tg-g145">GBM</th>
+    <th class="tg-g145">Triway BM</th>
+    <th class="tg-g145">Chance level</th>
+  </tr>
+  <tr>
+    <td class="tg-g145">12.06%</td>
+    <td class="tg-g145">14.18%</td>
+    <td class="tg-g145">23.35%</td>
+    <td class="tg-g145">1.4310^-4%</td>
+  </tr>
+
+</tbody></table>
+</center>
+<p></p>
+
+
+
+
+<p>
+The second experiment is finding missing object(s) on the scene according to current context. In
+this task, we randomly de-activate an object from the scene and expect the network to find the
+missing object. For this task, we define accuracy as the percentage of the missing objects found
+correctly in the test dataset. Our model is the best(Table 2).
+
+
+</p><center>
+<subcaption>Table 2: Performance (accuracy) of the methods on finding missing object in the scene. Higher is
+better.</subcaption><table class="tg">
+  <tbody><tr>
+    <th class="tg-g145">RBM</th>
+    <th class="tg-g145">GBM</th>
+    <th class="tg-g145">Triway BM</th>
+    <th class="tg-g145">Chance level</th>
+  </tr>
+  <tr>
+    <td class="tg-g145">35.12%</td>
+    <td class="tg-g145">40.94%</td>
+    <td class="tg-g145">43.28%</td>
+    <td class="tg-g145">5.75*10^*6%</td>
+  </tr>
+
+</tbody></table>
+</center>
+<p></p>
+
+<p>
+The third experiment is finding the objects that are out of current context on the scene. For this task,
+we select scenes, remove randomly an object and add randomly another object not in the scene. We
+define error measure to indicate how much reconstructed data is different form original data that is
+without extra objects. Our model is the best(Table 3).
+</p><center>
+<subcaption>Table 3: Performance (error) of the methods on finding what is out of context in the scene. Lower is
+better.</subcaption><table class="tg">
+  <tbody><tr>
+    <th class="tg-g145">RBM</th>
+    <th class="tg-g145">GBM</th>
+    <th class="tg-g145">Triway BM</th>
+    <th class="tg-g145">Chance level</th>
+  </tr>
+  <tr>
+    <td class="tg-g145">0.6446</td>
+    <td class="tg-g145">0.1404</td>
+    <td class="tg-g145">0.0789</td>
+    <td class="tg-g145">0.5</td>
+  </tr>
+
+</tbody></table>
+</center>
+<p></p>
+
+
+
+<p>
+The last experiment is random scene generation. In this task, we randomly activate hidden units and
+visible units are sampled according to context that is determined by hidden units.
+</p>
+
+
+         
+
+
+<!-- <h2>Code</h2>
+<ul>
+Coming soon ...
+</ul> -->
+
+<h2>Video</h2>
+
+<center>
 <iframe width="854" height="480" src="https://www.youtube.com/embed/yTtjrlUBAhA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  
-  
-</body>
-</html>
+</center>
+<br>
 
+
+
+
+
+
+<div style="text-align: center; width: 100%; margin-top: 25px; "><p style="color: #999; font-size: 9pt; ">© <script>document.write(new Date().getFullYear())</script>20182018 KOVAN Research Labs ‒ <a href="http://www.ceng.metu.edu.tr/" style="color:#EE7F2D;">Department of Computer Engineering</a> @ <a href="http://www.metu.edu.tr/" style="color:#EE7F2D;">Middle East Technical University</a> ‒ Üniversiteler Mahallesi, 
+Dumlupınar Bulvarı No:1
+06800 Çankaya Ankara/TÜRKİYE.</p></div>
+
+</td></tr></tbody></table>
+</body></html>
