@@ -779,14 +779,10 @@ button:focus {
 /* CLIENT TESTIMONIALS */
 /*--------------------*/
 
-#mu-testimonials {
-	background-image: url("assets/images/testimonials-bg.jpeg");
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
+#mu-publications {
+	background-color: #f7f7f7;
 	display: inline;
 	float: left;
-	position: relative;
 	width: 100%;
 }
 
